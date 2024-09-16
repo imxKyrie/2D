@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/bin/c++  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include -g -std=gnu++14 -o CMakeFiles/main.dir/main.cpp.o -c /home/zzz/2D/2D_cuda/main.cpp",
+  "file": "/home/zzz/2D/2D_cuda/main.cpp"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/bin/c++  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include -g -std=gnu++14 -o CMakeFiles/main.dir/src/FileData.cpp.o -c /home/zzz/2D/2D_cuda/src/FileData.cpp",
+  "file": "/home/zzz/2D/2D_cuda/src/FileData.cpp"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/InitializeBoundary.cu -o CMakeFiles/main.dir/src/InitializeBoundary.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/InitializeBoundary.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/InitializeCellsMacro.cu -o CMakeFiles/main.dir/src/InitializeCellsMacro.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/InitializeCellsMacro.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/InitializeGas.cu -o CMakeFiles/main.dir/src/InitializeGas.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/InitializeGas.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/InitializeMesh.cu -o CMakeFiles/main.dir/src/InitializeMesh.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/InitializeMesh.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/InitializeParticles.cu -o CMakeFiles/main.dir/src/InitializeParticles.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/InitializeParticles.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/MathTool.cu -o CMakeFiles/main.dir/src/MathTool.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/MathTool.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/MemoryManager.cu -o CMakeFiles/main.dir/src/MemoryManager.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/MemoryManager.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/ParticlesMotion.cu -o CMakeFiles/main.dir/src/ParticlesMotion.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/ParticlesMotion.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/Sample.cu -o CMakeFiles/main.dir/src/Sample.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/Sample.cu"
+},
+{
+  "directory": "/home/zzz/2D/2D_cuda/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/zzz/2D/2D_cuda/include -I/usr/local/cuda-12.2/include  -g -G -arch=sm_75 --ptxas-options=-v -g --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] -std=c++14 -x cu -dc /home/zzz/2D/2D_cuda/src/ver.cu -o CMakeFiles/main.dir/src/ver.cu.o",
+  "file": "/home/zzz/2D/2D_cuda/src/ver.cu"
+}
+]
