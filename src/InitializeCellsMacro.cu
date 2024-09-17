@@ -97,6 +97,7 @@ void InitializeCellsMacro() {
     InitializeCellsParams<<<grid, block>>>(d_cellsParams_temp);
 
     InitializeCellsSample<<<grid, block>>>(d_cellsSamples_temp);
+
     CUDA_CHECK(cudaMallocHost((void**)&h_cellsParams, h_numCells * sizeof(CellParams)));
     CUDA_CHECK(cudaMallocHost((void**)&h_cellsSamples, h_numCells * sizeof(CellSamples)));
     CUDA_CHECK(cudaMemcpy(h_cellsParams, d_cellsParams_temp, h_numCells * sizeof(CellParams), cudaMemcpyDeviceToHost));

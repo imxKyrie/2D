@@ -66,11 +66,11 @@ __device__ __host__ double3 operator-(const double3 &A, const double3 &B) {
 }
 
 // Determine whether it is within cell
-__device__ double CrossProduct(const double2 &A, const double2 &B, const double2 &P) {
+__device__ __host__ double CrossProduct(const double2 &A, const double2 &B, const double2 &P) {
     return (B.x - A.x) * (P.y - A.y) - (B.y - A.y) * (P.x - A.x);
 }
 
-__device__ bool IsParticleWithinCell(double2 &P, DeviceNode (&nodes)[4], unsigned int &numFace) {
+__device__ __host__ bool IsParticleWithinCell(double2 &P, DeviceNode (&nodes)[4], unsigned int &numFace) {
     double cross[4];
     for (unsigned int i = 0; i < numFace; i++) {
         cross[i] = CrossProduct(nodes[i], nodes[(i + 1) % numFace], P);
@@ -81,7 +81,7 @@ __device__ bool IsParticleWithinCell(double2 &P, DeviceNode (&nodes)[4], unsigne
 }
 
 // Calculate normal of face
-__device__ double2 CalculateNormal(double2 &A, double2 &B, double2 &P) {
+__device__ __host__ double2 CalculateNormal(double2 &A, double2 &B, double2 &P) {
     double2 AB = B - A;
     double2 AP = P - A;
     double2 normal = make_double2(-AB.y, AB.x);
@@ -96,7 +96,7 @@ __device__ double2 CalculateNormal(double2 &A, double2 &B, double2 &P) {
 }
 
 // Error Function and Gamma Function
-__device__ double Gamma_1(double x) {
+__device__ __host__ double Gamma_1(double x) {
     if (x <= 0.0) {
         printf("Gamma_1 Error");
         return -1.0;
@@ -132,7 +132,7 @@ __device__ double Gamma_1(double x) {
     return gamma;
 }
 
-__device__ double Gamma_2(double a, double x) {
+__device__ __host__ double Gamma_2(double a, double x) {
     if (a <= 0.0 || x <= 0.0) {
         printf("Gamma_2 Error");
         return -1.0;
@@ -178,6 +178,6 @@ __device__ double Gamma_2(double a, double x) {
     return gamma;
 }
 
-__device__ double Erf(double x) {
+__device__ __host__ double Erf(double x) {
     return (x >= 0.0) ? Gamma_2(0.5, x * x) : -Gamma_2(0.5, x * x);
 }

@@ -429,6 +429,8 @@ namespace FileData
                 yLength = std::max({nodes[uniqueNodes[0]-1].y, nodes[uniqueNodes[1]-1].y, nodes[uniqueNodes[2]-1].y}) - std::min({nodes[uniqueNodes[0]-1].y, nodes[uniqueNodes[1]-1].y, nodes[uniqueNodes[2]-1].y});
                 xLengthSum += xLength;
                 yLengthSum += yLength;
+                uniqueNodes.push_back(uniqueNodes[2]);
+                uniqueFaces.push_back(uniqueFaces[2]);
             }
             else if (uniqueNodes.size() == 4)
             {

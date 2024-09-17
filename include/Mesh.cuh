@@ -2,6 +2,7 @@
 #define MESH_CUH
 
 #include "Common.cuh"
+#include "Common.h"
 
 using DeviceNode = double2;
 
@@ -29,6 +30,12 @@ struct DeviceCell
     double2 centroid;
     unsigned int nodes[4];
     unsigned int faces[4];
+    DeviceCell() 
+        : index(0), type(0), length{0, 0}, volume(0), centroid{0, 0},
+          nodes{0, 0, 0, 0}, faces{0, 0, 0, 0} {}
+    DeviceCell(const Cell& cell)
+        : index(cell.index), type(cell.type), length(cell.length), volume(cell.volume), centroid(cell.centroid),
+          nodes{cell.nodes[0], cell.nodes[1], cell.nodes[2], cell.nodes[3]}, faces{cell.faces[0], cell.faces[1], cell.faces[2], cell.faces[3]} {}
 };
 
 #ifndef INIT_MESH_CU

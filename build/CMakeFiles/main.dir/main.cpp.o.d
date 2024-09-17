@@ -169,13 +169,14 @@ CMakeFiles/main.dir/main.cpp.o: /home/zzz/2D/2D_cuda/main.cpp \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
+ /usr/local/cuda-12.2/include/vector_types.h \
+ /usr/local/cuda-12.2/include/crt/host_defines.h \
  /home/zzz/2D/2D_cuda/include/GasConstants.cuh \
  /home/zzz/2D/2D_cuda/include/Common.cuh /usr/include/c++/11/stdlib.h \
  /usr/local/cuda-12.2/include/cuda_runtime.h \
  /usr/local/cuda-12.2/include/crt/host_config.h \
  /usr/local/cuda-12.2/include/builtin_types.h \
  /usr/local/cuda-12.2/include/device_types.h \
- /usr/local/cuda-12.2/include/crt/host_defines.h \
  /usr/local/cuda-12.2/include/driver_types.h \
  /usr/local/cuda-12.2/include/vector_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \

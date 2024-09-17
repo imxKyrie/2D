@@ -1660,25 +1660,6 @@ CMakeFiles/main.dir/src/InitializeParticles.cu.o : /home/zzz/2D/2D_cuda/src/Init
     /home/zzz/2D/2D_cuda/include/BoundaryConditions.cuh \
     /home/zzz/2D/2D_cuda/include/MacroParams.cuh \
     /home/zzz/2D/2D_cuda/include/Mesh.cuh \
-    /home/zzz/2D/2D_cuda/include/MathTool.cuh \
-    /usr/local/cuda-12.2/include/curand_kernel.h \
-    /usr/local/cuda-12.2/include/curand.h \
-    /usr/local/cuda-12.2/include/curand_discrete.h \
-    /usr/local/cuda-12.2/include/curand_precalc.h \
-    /usr/local/cuda-12.2/include/curand_mrg32k3a.h \
-    /usr/local/cuda-12.2/include/curand_mtgp32_kernel.h \
-    /usr/include/memory.h \
-    /usr/local/cuda-12.2/include/curand_mtgp32.h \
-    /usr/local/cuda-12.2/include/curand_philox4x32_x.h \
-    /usr/local/cuda-12.2/include/curand_globals.h \
-    /usr/local/cuda-12.2/include/curand_uniform.h \
-    /usr/local/cuda-12.2/include/curand_normal.h \
-    /usr/local/cuda-12.2/include/curand_normal_static.h \
-    /usr/local/cuda-12.2/include/curand_lognormal.h \
-    /usr/local/cuda-12.2/include/curand_poisson.h \
-    /usr/local/cuda-12.2/include/curand_discrete2.h \
-    /home/zzz/2D/2D_cuda/include/MemoryManager.cuh \
-    /home/zzz/2D/2D_cuda/include/FileData.h \
     /home/zzz/2D/2D_cuda/include/Common.h \
     /usr/include/c++/11/fstream \
     /usr/include/c++/11/bits/codecvt.h \
@@ -1699,4 +1680,23 @@ CMakeFiles/main.dir/src/InitializeParticles.cu.o : /home/zzz/2D/2D_cuda/src/Init
     /usr/include/c++/11/bits/unordered_map.h \
     /usr/include/c++/11/bits/erase_if.h \
     /usr/include/c++/11/unordered_set \
-    /usr/include/c++/11/bits/unordered_set.h
+    /usr/include/c++/11/bits/unordered_set.h \
+    /home/zzz/2D/2D_cuda/include/MathTool.cuh \
+    /usr/local/cuda-12.2/include/curand_kernel.h \
+    /usr/local/cuda-12.2/include/curand.h \
+    /usr/local/cuda-12.2/include/curand_discrete.h \
+    /usr/local/cuda-12.2/include/curand_precalc.h \
+    /usr/local/cuda-12.2/include/curand_mrg32k3a.h \
+    /usr/local/cuda-12.2/include/curand_mtgp32_kernel.h \
+    /usr/include/memory.h \
+    /usr/local/cuda-12.2/include/curand_mtgp32.h \
+    /usr/local/cuda-12.2/include/curand_philox4x32_x.h \
+    /usr/local/cuda-12.2/include/curand_globals.h \
+    /usr/local/cuda-12.2/include/curand_uniform.h \
+    /usr/local/cuda-12.2/include/curand_normal.h \
+    /usr/local/cuda-12.2/include/curand_normal_static.h \
+    /usr/local/cuda-12.2/include/curand_lognormal.h \
+    /usr/local/cuda-12.2/include/curand_poisson.h \
+    /usr/local/cuda-12.2/include/curand_discrete2.h \
+    /home/zzz/2D/2D_cuda/include/MemoryManager.cuh \
+    /home/zzz/2D/2D_cuda/include/FileData.h

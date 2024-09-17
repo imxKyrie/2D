@@ -1,4 +1,5 @@
 #include "MemoryManager.cuh"
+#include <iostream>
 
 std::vector<void *>& MemoryManager::GetHostPointers() {
     static std::vector<void *> h_pointers;

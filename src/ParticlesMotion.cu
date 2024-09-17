@@ -183,17 +183,18 @@ __global__ void Motion(Particle *particles) {
     particle.active = active_temp;
 }
 
-__device__ void InflowParticles(unsigned int &cellIdx )
+void InflowParticles(unsigned int &cellIdx )
 {}
 
 void Inflow() {
-    IOFace &inletFace = h_inlet[idx];
-    unsigned int cellIdx = inletFace.cellId - 1;
-    DeviceCell cell = FileData::cells[cellIdx];
-    DeviceNode node_1 = inletFace.nodes[0];
-    double dh = sqrt(pow(inletFace.nodes[0].x - inletFace.nodes[1].x, 2.0) + pow(inletFace.nodes[0].y - inletFace.nodes[1].y, 2.0));
-    double2 face_normal = CalculateNormal(inletFace.nodes[0], inletFace.nodes[1], cell.centroid);
-    double vx = d_cellsParams[inletFace.cellId - 1].averageVel.x / d_cellsParams[inletFace.cellId - 1].averageFnd;
+    for (unsigned int i = 0; i < FileData::numInletFaces; i++) {
+        IOFace inletFace = h_inlet[i];
+        unsigned int cellIdx = inletFace.cellId - 1;
+        Cell cell = FileData::cells[cellIdx];
+        double dh = sqrt(pow(inletFace.nodes[0].x - inletFace.nodes[1].x, 2.0) + pow(inletFace.nodes[0].y - inletFace.nodes[1].y, 2.0));
+        double2 face_normal = CalculateNormal(inletFace.nodes[0], inletFace.nodes[1], cell.centroid);
+        double vx = h_cellsParams[cellIdx].averageVel.x / h_cellsParams[cellIdx].averageFnd;
+    }
 }
 
 void ParticlesMotion() {
@@ -206,12 +207,12 @@ void ParticlesMotion() {
     unsigned int gridSize = (numParticles + blockSize - 1) / blockSize;
 
     Motion<<<gridSize, blockSize>>>(d_particles_ptr);
-    CUDA_CHECK(cudaDeviceSynchronize());
+    // CUDA_CHECK(cudaDeviceSynchronize());
 
     unsigned int numInletFaces = FileData::numInletFaces;
     unsigned int numOutletFaces = FileData::numOutletFaces;
 
     gridSize = (numInletFaces + blockSize - 1) / blockSize;
-    Inflow();
+    // Inflow();
     CUDA_CHECK(cudaDeviceSynchronize());
 }

@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <unordered_map>
 #include <unordered_set>
+#include <vector_types.h>
 
 struct Node
 {
@@ -33,14 +34,14 @@ struct Cell
 {
     unsigned int index;
     unsigned int type;
-    double xLength, yLength;
+    double2 length;
     double volume;
-    double xCentroid, yCentroid;
+    double2 centroid;
     std::vector<unsigned int> nodes;
     std::vector<unsigned int> faces;
     Cell(const unsigned int &index, const unsigned int &type, const double &xLength, const double &yLength, const double &volume, 
          const double &xCentroid, const double &yCentroid, const std::vector<unsigned int> &nodes, const std::vector<unsigned int> &faces)
-        : index(index), type(type), xLength(xLength), yLength(yLength), volume(volume), xCentroid(xCentroid), yCentroid(yCentroid), nodes(nodes), faces(faces) {}
+        : index(index), type(type), length{xLength, yLength}, volume(volume), centroid{xCentroid, yCentroid}, nodes(nodes), faces(faces) {}
 };
 
 #endif // COMMON_H

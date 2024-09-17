@@ -147,13 +147,17 @@ void InitializeMesh() {
     DeviceCell *h_cells = new DeviceCell[h_numCells];
 
     for (unsigned int i = 0; i < h_numCells; ++i) {
+        h_cells[i] = DeviceCell(FileData::cells[i]);
+    }
+/*
+    for (unsigned int i = 0; i < h_numCells; ++i) {
         h_cells[i].index = FileData::cells[i].index;
         h_cells[i].type = FileData::cells[i].type;
-        h_cells[i].length.x = FileData::cells[i].xLength;
-        h_cells[i].length.y = FileData::cells[i].yLength;
+        h_cells[i].length.x = FileData::cells[i].length.x;
+        h_cells[i].length.y = FileData::cells[i].length.y;
         h_cells[i].volume = FileData::cells[i].volume;
-        h_cells[i].centroid.x = FileData::cells[i].xCentroid;
-        h_cells[i].centroid.y = FileData::cells[i].yCentroid;
+        h_cells[i].centroid.x = FileData::cells[i].centroid.x;
+        h_cells[i].centroid.y = FileData::cells[i].centroid.y;
 
         if (h_cells[i].type == 1) {
             h_cells[i].nodes[0] = FileData::cells[i].nodes[0];
@@ -176,7 +180,7 @@ void InitializeMesh() {
             h_cells[i].faces[3] = FileData::cells[i].faces[3];
         }
     }
-
+*/
     DeviceCell *d_cells_temp;
     CUDA_CHECK(cudaMalloc((void**)&d_cells_temp, h_numCells * sizeof(DeviceCell)));
     CUDA_CHECK(cudaMemcpy(d_cells_temp, h_cells, h_numCells * sizeof(DeviceCell), cudaMemcpyHostToDevice));

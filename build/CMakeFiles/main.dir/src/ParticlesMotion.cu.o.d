@@ -158,6 +158,139 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /home/zzz/2D/2D_cuda/include/BoundaryConditions.cuh \
     /home/zzz/2D/2D_cuda/include/MacroParams.cuh \
     /home/zzz/2D/2D_cuda/include/Mesh.cuh \
+    /home/zzz/2D/2D_cuda/include/Common.h \
+    /usr/include/c++/11/iostream \
+    /usr/include/c++/11/ostream \
+    /usr/include/c++/11/ios \
+    /usr/include/c++/11/iosfwd \
+    /usr/include/c++/11/bits/stringfwd.h \
+    /usr/include/c++/11/bits/memoryfwd.h \
+    /usr/include/c++/11/bits/postypes.h \
+    /usr/include/c++/11/cwchar \
+    /usr/include/wchar.h \
+    /usr/include/x86_64-linux-gnu/bits/wchar.h \
+    /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+    /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+    /usr/include/c++/11/exception \
+    /usr/include/c++/11/bits/exception_ptr.h \
+    /usr/include/c++/11/bits/exception_defines.h \
+    /usr/include/c++/11/bits/cxxabi_init_exception.h \
+    /usr/include/c++/11/typeinfo \
+    /usr/include/c++/11/bits/hash_bytes.h \
+    /usr/include/c++/11/bits/nested_exception.h \
+    /usr/include/c++/11/bits/char_traits.h \
+    /usr/include/c++/11/bits/stl_algobase.h \
+    /usr/include/c++/11/bits/functexcept.h \
+    /usr/include/c++/11/ext/numeric_traits.h \
+    /usr/include/c++/11/bits/stl_iterator_base_types.h \
+    /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+    /usr/include/c++/11/bits/concept_check.h \
+    /usr/include/c++/11/debug/assertions.h \
+    /usr/include/c++/11/bits/stl_iterator.h \
+    /usr/include/c++/11/bits/ptr_traits.h \
+    /usr/include/c++/11/debug/debug.h \
+    /usr/include/c++/11/bits/predefined_ops.h \
+    /usr/include/c++/11/cstdint \
+    /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+    /usr/include/stdint.h \
+    /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+    /usr/include/c++/11/bits/localefwd.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+    /usr/include/c++/11/clocale \
+    /usr/include/locale.h \
+    /usr/include/x86_64-linux-gnu/bits/locale.h \
+    /usr/include/c++/11/cctype \
+    /usr/include/ctype.h \
+    /usr/include/c++/11/bits/ios_base.h \
+    /usr/include/c++/11/ext/atomicity.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+    /usr/include/pthread.h \
+    /usr/include/sched.h \
+    /usr/include/x86_64-linux-gnu/bits/sched.h \
+    /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+    /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+    /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+    /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+    /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+    /usr/include/c++/11/bits/locale_classes.h \
+    /usr/include/c++/11/string \
+    /usr/include/c++/11/bits/allocator.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+    /usr/include/c++/11/ext/new_allocator.h \
+    /usr/include/c++/11/bits/ostream_insert.h \
+    /usr/include/c++/11/bits/cxxabi_forced.h \
+    /usr/include/c++/11/bits/stl_function.h \
+    /usr/include/c++/11/backward/binders.h \
+    /usr/include/c++/11/bits/range_access.h \
+    /usr/include/c++/11/bits/basic_string.h \
+    /usr/include/c++/11/ext/alloc_traits.h \
+    /usr/include/c++/11/bits/alloc_traits.h \
+    /usr/include/c++/11/bits/stl_construct.h \
+    /usr/include/c++/11/ext/string_conversions.h \
+    /usr/include/c++/11/cstdio \
+    /usr/include/c++/11/cerrno \
+    /usr/include/errno.h \
+    /usr/include/x86_64-linux-gnu/bits/errno.h \
+    /usr/include/linux/errno.h \
+    /usr/include/x86_64-linux-gnu/asm/errno.h \
+    /usr/include/asm-generic/errno.h \
+    /usr/include/asm-generic/errno-base.h \
+    /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+    /usr/include/c++/11/bits/charconv.h \
+    /usr/include/c++/11/bits/functional_hash.h \
+    /usr/include/c++/11/bits/basic_string.tcc \
+    /usr/include/c++/11/bits/locale_classes.tcc \
+    /usr/include/c++/11/system_error \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+    /usr/include/c++/11/stdexcept \
+    /usr/include/c++/11/streambuf \
+    /usr/include/c++/11/bits/streambuf.tcc \
+    /usr/include/c++/11/bits/basic_ios.h \
+    /usr/include/c++/11/bits/locale_facets.h \
+    /usr/include/c++/11/cwctype \
+    /usr/include/wctype.h \
+    /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+    /usr/include/c++/11/bits/streambuf_iterator.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+    /usr/include/c++/11/bits/locale_facets.tcc \
+    /usr/include/c++/11/bits/basic_ios.tcc \
+    /usr/include/c++/11/bits/ostream.tcc \
+    /usr/include/c++/11/istream \
+    /usr/include/c++/11/bits/istream.tcc \
+    /usr/include/c++/11/vector \
+    /usr/include/c++/11/bits/stl_uninitialized.h \
+    /usr/include/c++/11/bits/stl_vector.h \
+    /usr/include/c++/11/bits/stl_bvector.h \
+    /usr/include/c++/11/bits/vector.tcc \
+    /usr/include/c++/11/fstream \
+    /usr/include/c++/11/bits/codecvt.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+    /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+    /usr/include/c++/11/bits/fstream.tcc \
+    /usr/include/c++/11/sstream \
+    /usr/include/c++/11/bits/sstream.tcc \
+    /usr/include/c++/11/algorithm \
+    /usr/include/c++/11/bits/stl_algo.h \
+    /usr/include/c++/11/bits/algorithmfwd.h \
+    /usr/include/c++/11/bits/stl_heap.h \
+    /usr/include/c++/11/bits/stl_tempbuf.h \
+    /usr/include/c++/11/bits/uniform_int_dist.h \
+    /usr/include/c++/11/unordered_map \
+    /usr/include/c++/11/ext/aligned_buffer.h \
+    /usr/include/c++/11/bits/hashtable.h \
+    /usr/include/c++/11/bits/hashtable_policy.h \
+    /usr/include/c++/11/tuple \
+    /usr/include/c++/11/array \
+    /usr/include/c++/11/bits/uses_allocator.h \
+    /usr/include/c++/11/bits/invoke.h \
+    /usr/include/c++/11/bits/enable_special_members.h \
+    /usr/include/c++/11/bits/unordered_map.h \
+    /usr/include/c++/11/bits/erase_if.h \
+    /usr/include/c++/11/unordered_set \
+    /usr/include/c++/11/bits/unordered_set.h \
     /home/zzz/2D/2D_cuda/include/Particles.cuh \
     /usr/local/cuda-12.2/include/thrust/device_vector.h \
     /usr/local/cuda-12.2/include/thrust/detail/config.h \
@@ -489,11 +622,6 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__type_traits/../__type_traits/../__type_traits/type_list.h \
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__type_traits/../cstdint \
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__type_traits/../__cuda/cstdint_prelude.h \
-    /usr/include/c++/11/cstdint \
-    /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-    /usr/include/stdint.h \
-    /usr/include/x86_64-linux-gnu/bits/wchar.h \
-    /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__type_traits/../climits \
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__type_traits/../__cuda/climits_prelude.h \
     /usr/include/c++/11/climits \
@@ -825,7 +953,6 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__tuple_dir/tuple_element.h \
     /usr/local/cuda-12.2/include/cuda/std/detail/libcxx/include/__tuple_dir/tuple_size.h \
     /usr/local/cuda-12.2/include/cub/detail/detect_cuda_runtime.cuh \
-    /usr/include/c++/11/cstdio \
     /usr/local/cuda-12.2/include/thrust/detail/allocator_aware_execution_policy.h \
     /usr/local/cuda-12.2/include/thrust/detail/execute_with_allocator_fwd.h \
     /usr/local/cuda-12.2/include/thrust/detail/execute_with_dependencies.h \
@@ -833,97 +960,13 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/thrust/detail/type_deduction.h \
     /usr/local/cuda-12.2/include/thrust/detail/preprocessor.h \
     /usr/local/cuda-12.2/include/thrust/type_traits/remove_cvref.h \
-    /usr/include/c++/11/tuple \
-    /usr/include/c++/11/array \
-    /usr/include/c++/11/bits/functexcept.h \
-    /usr/include/c++/11/bits/exception_defines.h \
-    /usr/include/c++/11/bits/stl_algobase.h \
-    /usr/include/c++/11/ext/numeric_traits.h \
-    /usr/include/c++/11/bits/stl_iterator_base_types.h \
-    /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-    /usr/include/c++/11/bits/concept_check.h \
-    /usr/include/c++/11/debug/assertions.h \
-    /usr/include/c++/11/bits/stl_iterator.h \
-    /usr/include/c++/11/bits/ptr_traits.h \
-    /usr/include/c++/11/debug/debug.h \
-    /usr/include/c++/11/bits/predefined_ops.h \
-    /usr/include/c++/11/bits/range_access.h \
-    /usr/include/c++/11/bits/uses_allocator.h \
-    /usr/include/c++/11/bits/invoke.h \
     /usr/local/cuda-12.2/include/thrust/detail/alignment.h \
     /usr/local/cuda-12.2/include/thrust/detail/dependencies_aware_execution_policy.h \
     /usr/local/cuda-12.2/include/thrust/iterator/iterator_categories.h \
     /usr/local/cuda-12.2/include/thrust/iterator/detail/iterator_category_with_system_and_traversal.h \
     /usr/local/cuda-12.2/include/thrust/iterator/detail/iterator_traversal_tags.h \
     /usr/include/c++/11/iterator \
-    /usr/include/c++/11/iosfwd \
-    /usr/include/c++/11/bits/stringfwd.h \
-    /usr/include/c++/11/bits/memoryfwd.h \
-    /usr/include/c++/11/bits/postypes.h \
-    /usr/include/c++/11/cwchar \
-    /usr/include/wchar.h \
-    /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-    /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
     /usr/include/c++/11/bits/stream_iterator.h \
-    /usr/include/c++/11/bits/streambuf_iterator.h \
-    /usr/include/c++/11/streambuf \
-    /usr/include/c++/11/bits/localefwd.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-    /usr/include/c++/11/clocale \
-    /usr/include/locale.h \
-    /usr/include/x86_64-linux-gnu/bits/locale.h \
-    /usr/include/c++/11/cctype \
-    /usr/include/ctype.h \
-    /usr/include/c++/11/bits/ios_base.h \
-    /usr/include/c++/11/ext/atomicity.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-    /usr/include/pthread.h \
-    /usr/include/sched.h \
-    /usr/include/x86_64-linux-gnu/bits/sched.h \
-    /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-    /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-    /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-    /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-    /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-    /usr/include/c++/11/bits/locale_classes.h \
-    /usr/include/c++/11/string \
-    /usr/include/c++/11/bits/char_traits.h \
-    /usr/include/c++/11/bits/allocator.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-    /usr/include/c++/11/ext/new_allocator.h \
-    /usr/include/c++/11/bits/ostream_insert.h \
-    /usr/include/c++/11/bits/cxxabi_forced.h \
-    /usr/include/c++/11/bits/stl_function.h \
-    /usr/include/c++/11/backward/binders.h \
-    /usr/include/c++/11/bits/basic_string.h \
-    /usr/include/c++/11/ext/alloc_traits.h \
-    /usr/include/c++/11/bits/alloc_traits.h \
-    /usr/include/c++/11/bits/stl_construct.h \
-    /usr/include/c++/11/ext/string_conversions.h \
-    /usr/include/c++/11/cerrno \
-    /usr/include/errno.h \
-    /usr/include/x86_64-linux-gnu/bits/errno.h \
-    /usr/include/linux/errno.h \
-    /usr/include/x86_64-linux-gnu/asm/errno.h \
-    /usr/include/asm-generic/errno.h \
-    /usr/include/asm-generic/errno-base.h \
-    /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-    /usr/include/c++/11/bits/charconv.h \
-    /usr/include/c++/11/bits/functional_hash.h \
-    /usr/include/c++/11/bits/hash_bytes.h \
-    /usr/include/c++/11/bits/basic_string.tcc \
-    /usr/include/c++/11/bits/locale_classes.tcc \
-    /usr/include/c++/11/system_error \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-    /usr/include/c++/11/stdexcept \
-    /usr/include/c++/11/exception \
-    /usr/include/c++/11/bits/exception_ptr.h \
-    /usr/include/c++/11/bits/cxxabi_init_exception.h \
-    /usr/include/c++/11/typeinfo \
-    /usr/include/c++/11/bits/nested_exception.h \
-    /usr/include/c++/11/bits/streambuf.tcc \
     /usr/local/cuda-12.2/include/thrust/iterator/detail/universal_categories.h \
     /usr/local/cuda-12.2/include/thrust/iterator/detail/is_iterator_category.h \
     /usr/local/cuda-12.2/include/thrust/iterator/detail/iterator_category_to_traversal.h \
@@ -947,8 +990,6 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/thrust/detail/type_traits/has_member_function.h \
     /usr/local/cuda-12.2/include/thrust/detail/memory_wrapper.h \
     /usr/include/c++/11/memory \
-    /usr/include/c++/11/bits/stl_uninitialized.h \
-    /usr/include/c++/11/bits/stl_tempbuf.h \
     /usr/include/c++/11/bits/stl_raw_storage_iter.h \
     /usr/include/c++/11/bits/align.h \
     /usr/include/c++/11/bit \
@@ -957,7 +998,6 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/include/c++/11/bits/shared_ptr_base.h \
     /usr/include/c++/11/bits/allocated_ptr.h \
     /usr/include/c++/11/bits/refwrap.h \
-    /usr/include/c++/11/ext/aligned_buffer.h \
     /usr/include/c++/11/ext/concurrence.h \
     /usr/include/c++/11/bits/shared_ptr_atomic.h \
     /usr/include/c++/11/bits/atomic_base.h \
@@ -1030,21 +1070,6 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/thrust/system_error.h \
     /usr/local/cuda-12.2/include/thrust/system/error_code.h \
     /usr/local/cuda-12.2/include/thrust/system/detail/errno.h \
-    /usr/include/c++/11/iostream \
-    /usr/include/c++/11/ostream \
-    /usr/include/c++/11/ios \
-    /usr/include/c++/11/bits/basic_ios.h \
-    /usr/include/c++/11/bits/locale_facets.h \
-    /usr/include/c++/11/cwctype \
-    /usr/include/wctype.h \
-    /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-    /usr/include/c++/11/bits/locale_facets.tcc \
-    /usr/include/c++/11/bits/basic_ios.tcc \
-    /usr/include/c++/11/bits/ostream.tcc \
-    /usr/include/c++/11/istream \
-    /usr/include/c++/11/bits/istream.tcc \
     /usr/local/cuda-12.2/include/thrust/system/detail/error_category.inl \
     /usr/include/c++/11/cstring \
     /usr/local/cuda-12.2/include/thrust/system/detail/error_code.inl \
@@ -1415,10 +1440,6 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/thrust/detail/allocator/destroy_range.inl \
     /usr/local/cuda-12.2/include/thrust/detail/allocator/fill_construct_range.h \
     /usr/local/cuda-12.2/include/thrust/detail/allocator/fill_construct_range.inl \
-    /usr/include/c++/11/vector \
-    /usr/include/c++/11/bits/stl_vector.h \
-    /usr/include/c++/11/bits/stl_bvector.h \
-    /usr/include/c++/11/bits/vector.tcc \
     /usr/local/cuda-12.2/include/thrust/detail/vector_base.inl \
     /usr/local/cuda-12.2/include/thrust/detail/overlapped_copy.h \
     /usr/local/cuda-12.2/include/thrust/equal.h \
@@ -1678,25 +1699,4 @@ CMakeFiles/main.dir/src/ParticlesMotion.cu.o : /home/zzz/2D/2D_cuda/src/Particle
     /usr/local/cuda-12.2/include/curand_lognormal.h \
     /usr/local/cuda-12.2/include/curand_poisson.h \
     /usr/local/cuda-12.2/include/curand_discrete2.h \
-    /home/zzz/2D/2D_cuda/include/FileData.h \
-    /home/zzz/2D/2D_cuda/include/Common.h \
-    /usr/include/c++/11/fstream \
-    /usr/include/c++/11/bits/codecvt.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-    /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-    /usr/include/c++/11/bits/fstream.tcc \
-    /usr/include/c++/11/sstream \
-    /usr/include/c++/11/bits/sstream.tcc \
-    /usr/include/c++/11/algorithm \
-    /usr/include/c++/11/bits/stl_algo.h \
-    /usr/include/c++/11/bits/algorithmfwd.h \
-    /usr/include/c++/11/bits/stl_heap.h \
-    /usr/include/c++/11/bits/uniform_int_dist.h \
-    /usr/include/c++/11/unordered_map \
-    /usr/include/c++/11/bits/hashtable.h \
-    /usr/include/c++/11/bits/hashtable_policy.h \
-    /usr/include/c++/11/bits/enable_special_members.h \
-    /usr/include/c++/11/bits/unordered_map.h \
-    /usr/include/c++/11/bits/erase_if.h \
-    /usr/include/c++/11/unordered_set \
-    /usr/include/c++/11/bits/unordered_set.h
+    /home/zzz/2D/2D_cuda/include/FileData.h
